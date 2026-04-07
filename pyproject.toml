@@ -1,0 +1,19 @@
+[project]
+name = "websiter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "advertools>=0.17.2",
+    "bs4>=0.0.2",
+    "matplotlib>=3.10.8",
+    "spacy>=3.8.14",
+    "wordcloud>=1.9.6",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "notebook>=7.5.5",
+]
